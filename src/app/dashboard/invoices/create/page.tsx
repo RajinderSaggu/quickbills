@@ -1,11 +1,10 @@
+import CreateInvoice from '@/app/dashboard/invoices/create/_components/create-invoice';
 import React from 'react'
 
-const CreateInvoice = () => {
+const CreateInvoiceRoute = () => {
   return (
-    <div>
-      
-    </div>
+    <CreateInvoice firstName={''} lastName={''} address={''} email={''}/>
   )
 }
 
-export default CreateInvoice;
+export default CreateInvoiceRoute;
